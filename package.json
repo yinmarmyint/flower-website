@@ -1,0 +1,26 @@
+{
+  "name": "website-navbar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "classnames": "^2.2.6",
+    "next": "^9.2.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-simple-flex-grid": "^1.2.3",
+    "react-slick": "^0.25.2"
+  }
+}

@@ -1,0 +1,12 @@
+.service-bg {
+  background: url("/static/image/service.jpg");
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 3rem;
+  background-size: cover;
+
+  h1 {
+    padding-top: 2rem;
+    margin-block-end: 0px !important;
+  }
+}

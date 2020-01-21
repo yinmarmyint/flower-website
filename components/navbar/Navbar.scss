@@ -1,0 +1,121 @@
+@import "../../static/scss/variables.scss";
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.navbar {
+  padding: 6px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  img {
+    height: 70px;
+    width: 200px;
+  }
+
+  .menu {
+    padding-top: 0.5rem;
+    .nav-link {
+      padding-top: 0.2rem;
+      a {
+        color: navy;
+        text-decoration: none;
+        margin-left: 1rem;
+        padding: 4px 15px;
+        border-radius: 30px;
+        font-weight: bold;
+        transition: all 0.5s;
+        &:hover {
+          color: $header;
+        }
+      }
+    }
+
+    .social-link {
+      a {
+        color: #2f2f2f;
+        text-decoration: none;
+        margin-left: 1rem;
+        padding: 0px 10px;
+        font-weight: bold;
+        &:hover {
+          color: rgb(102, 13, 13);
+          transition: all 0.5s;
+        }
+      }
+    }
+
+    i {
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      line-height: 30px;
+      border-radius: 50%;
+      &:hover {
+        animation: social-icon-beat 1s infinite alternate !important;
+      }
+    }
+    .facebook-bg {
+      background-color: #3b5898;
+      color: #ffffff;
+    }
+    .youtube-bg {
+      background-color: red;
+      color: #ffffff;
+    }
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    // align-items: center;
+    // justify-content: center;
+    background-color: #f4f6f7;
+    .close {
+      color: #fff;
+      padding: 1rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    &.open {
+      display: block;
+    }
+    &.not-open {
+      display: none;
+    }
+
+    .m-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          list-style: none;
+          padding: 1rem;
+          margin: 0;
+          a {
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes social-icon-beat {
+  to {
+    transform: scale(1.1);
+  }
+}

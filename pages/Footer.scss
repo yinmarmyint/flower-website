@@ -1,0 +1,43 @@
+.footer-page {
+  margin: 3rem 0 1rem 0;
+  height: 30vh;
+  background-color: gray;
+  a {
+    color: white;
+    padding-left: 35px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+}
+
+.social-link {
+  a {
+    color: #2f2f2f;
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 0px 10px;
+    font-weight: bold;
+    &:hover {
+      color: rgb(102, 13, 13);
+      transition: all 0.5s;
+    }
+  }
+  i {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    &:hover {
+      animation: social-icon-beat 1s infinite alternate !important;
+    }
+  }
+  .facebook-bg {
+    background-color: #3b5898;
+    color: #ffffff;
+  }
+  .youtube-bg {
+    background-color: red;
+    color: #ffffff;
+  }
+}

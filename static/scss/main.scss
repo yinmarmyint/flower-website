@@ -1,0 +1,20 @@
+@import "./nprogress.scss";
+@import "./style.scss";
+@import "../../components/layout/Layout.scss";
+@import "../../components/navbar/Navbar.scss";
+@import "../../pages/HomePage.scss";
+@import "../../pages/AboutUs.scss";
+@import "../../pages/Service.scss";
+@import "../../pages/CustomerSay.scss";
+@import "../../pages/Footer.scss";
+
+@import url("https://fonts.googleapis.com/css?family=Alegreya|B612|Muli|Titillium+Web|Work+Sans&display=swap");
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Titillium Web", sans-serif;
+  letter-spacing: 1.2px;
+}

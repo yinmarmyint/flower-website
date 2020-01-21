@@ -1,0 +1,42 @@
+/* Flex */
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-start {
+  -ms-flex-align: start !important;
+  align-items: flex-start !important;
+}
+
+.align-items-end {
+  -ms-flex-align: end !important;
+  align-items: flex-end !important;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.align-items-baseline {
+  -ms-flex-align: baseline !important;
+  align-items: baseline !important;
+}
+
+.align-items-stretch {
+  -ms-flex-align: stretch !important;
+  align-items: stretch !important;
+}

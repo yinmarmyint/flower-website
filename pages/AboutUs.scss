@@ -1,0 +1,24 @@
+.about-main {
+  padding: 2rem 5rem 0 5rem;
+  h1 {
+    text-align: center;
+  }
+  hr {
+    width: 200px;
+  }
+}
+
+.about-bg {
+  background: url("/static/image/pink-bg.jpg");
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  margin: 0.5rem 1rem 2rem 2rem;
+}
+
+.about-content {
+  text-align: justify;
+  line-height: 1.8;
+  word-spacing: 5px;
+  font-size: 17px;
+}

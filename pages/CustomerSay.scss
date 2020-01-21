@@ -1,0 +1,26 @@
+.fa-quote-left {
+  color: #ffcc33;
+  margin: 10px 0 0;
+}
+
+.say-container {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  h1 {
+    text-align: center;
+    margin-block-end: 0px;
+  }
+  hr {
+    width: 220px;
+  }
+}
+
+.slick-dots li button::before {
+  font-size: 15px !important;
+  color: #f4d703 !important;
+}
+
+.slick-dots li button::after {
+  font-size: 15px !important;
+  color: black !important;
+}
